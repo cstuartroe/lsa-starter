@@ -1,0 +1,135 @@
+To an outsider, the fancy booths at a June health insurance industry gathering in San Diego, Calif., aren't very compelling: a handful of companies pitching "lifestyle" data and salespeople touting jargony phrases like "social determinants of health."
+
+But dig deeper and the implications of what they're selling might give many patients pause: a future in which everything you do — the things you buy, the food you eat, the time you spend watching TV — may help determine how much you pay for health insurance.
+
+With little public scrutiny, the health insurance industry has joined forces with data brokers to vacuum up personal details about hundreds of millions of Americans, including, odds are, many readers of this story.
+
+The companies are tracking your race, education level, TV habits, marital status, net worth. They're collecting what you post on social media, whether you're behind on your bills, what you order online. Then they feed this information into complicated computer algorithms that spit out predictions about how much your health care could cost them.
+
+Are you a woman who recently changed your name? You could be newly married and have a pricey pregnancy pending. Or maybe you're stressed and anxious from a recent divorce. That, too, the computer models predict, may run up your medical bills.
+
+Are you a woman who has purchased plus-size clothing? You're considered at risk of depression. Mental health care can be expensive.
+
+Low-income and a minority? That means, the data brokers say, you are more likely to live in a dilapidated and dangerous neighborhood, increasing your health risks.
+
+Have you worked in health insurance?
+
+ProPublica and NPR are investigating the industry and want to hear from you. Please complete our brief questionnaire.
+
+"We sit on oceans of data," said Eric McCulley, director of strategic solutions for LexisNexis Risk Solutions, during a conversation at the data firm's booth. And he isn't apologetic about using it. "The fact is, our data is in the public domain," he said. "We didn't put it out there."
+
+Insurers contend that they use the information to spot health issues in their clients — and flag them so they get services they need. And companies like LexisNexis say the data shouldn't be used to set prices. But as a research scientist from one company told me: "I can't say it hasn't happened."
+
+At a time when every week brings a new privacy scandal and worries abound about the misuse of personal information, patient advocates and privacy scholars say the insurance industry's data gathering runs counter to its touted, and federally required, allegiance to patients' medical privacy. The Health Insurance Portability and Accountability Act, or HIPAA, only protects medical information.
+
+"We have a health privacy machine that's in crisis," said Frank Pasquale, a professor at the University of Maryland Carey School of Law who specializes in issues related to machine learning and algorithms. "We have a law that only covers one source of health information. They are rapidly developing another source."
+
+Patient advocates warn that using unverified, error-prone "lifestyle" data to make medical assumptions could lead insurers to improperly price plans — for instance, raising rates based on false information — or discriminate against anyone tagged as high cost. And, they say, the use of the data raises thorny questions that should be debated publicly, such as: Should a person's rates be raised because algorithms say they are more likely to run up medical bills? Such questions would be moot in Europe, where a strict law took effect in May that bans trading in personal data.
+
+This year, ProPublica and NPR are investigating the various tactics the health insurance industry uses to maximize its profits. Understanding these strategies is important because patients — through taxes, cash payments and insurance premiums — are the ones funding the entire health care system. Yet the industry's bewildering web of strategies and inside deals often has little to do with patients' needs. As the series' first story showed, contrary to popular belief, lower bills aren't health insurers' top priority.
+
+Inside the San Diego Convention Center, there were few qualms about the way insurance companies were mining Americans' lives for information — or what they planned to do with the data.
+
+Linking health costs to personal data
+
+The sprawling convention center was a balmy draw for one of America's Health Insurance Plans' marquee gatherings. Insurance executives and managers wandered through the exhibit hall, sampling chocolate-covered strawberries, champagne and other delectables designed to encourage deal-making.
+
+Up front, the prime real estate belonged to the big guns in health data: The booths of Optum, IBM Watson Health and LexisNexis stretched toward the ceiling, with flat-screen monitors and some comfy seating. (NPR collaborates with IBM Watson Health on national polls about consumer health topics.)
+
+To understand the scope of what they were offering, consider Optum. The company, owned by the massive UnitedHealth Group, has collected the medical diagnoses, tests, prescriptions, costs and socioeconomic data of 150 million Americans going back to 1993, according to its marketing materials.(UnitedHealth Group provides financial support to NPR.)
+
+The company says it uses the information to link patients' medical outcomes and costs to details like their level of education, net worth, family structure and race. An Optum spokesman said the socioeconomic data is de-identified and is not used for pricing health plans.
+
+Optum's marketing materials also boast that it now has access to even more. In 2016, the company filed a patent application to gather what people share on platforms like Facebook and Twitter, and to link this material to the person's clinical and payment information. A company spokesman said in an email that the patent application never went anywhere. But the company's current marketing materials say it combines claims and clinical information with social media interactions.
+
+I had a lot of questions about this and first reached out to Optum in May, but the company didn't connect me with any of its experts as promised. At the conference, Optum salespeople said they weren't allowed to talk to me about how the company uses this information.
+
+It isn't hard to understand the appeal of all this data to insurers. Merging information from data brokers with people's clinical and payment records is a no-brainer if you overlook potential patient concerns. Electronic medical records now make it easy for insurers to analyze massive amounts of information and combine it with the personal details scooped up by data brokers.
+
+It also makes sense given the shifts in how providers are getting paid. Doctors and hospitals have typically been paid based on the quantity of care they provide. But the industry is moving toward paying them in lump sums for caring for a patient, or for an event, like a knee surgery. In those cases, the medical providers can profit more when patients stay healthy. More money at stake means more interest in the social factors that might affect a patient's health.
+
+Some insurance companies are already using socioeconomic data to help patients get appropriate care, such as programs to help patients with chronic diseases stay healthy. Studies show social and economic aspects of people's lives play an important role in their health. Knowing these personal details can help them identify those who may need help paying for medication or help getting to the doctor.
+
+But patient advocates are skeptical that health insurers have altruistic designs on people's personal information.
+
+The industry has a history of boosting profits by signing up healthy people and finding ways to avoid sick people — called "cherry-picking" and "lemon-dropping," experts say.
+
+Among the classic examples: A company was accused of putting its enrollment office on the third floor of a building without an elevator, so only healthy patients could make the trek to sign up. Another tried to appeal to spry seniors by holding square dances.
+
+The Affordable Care Act prohibits insurers from denying people coverage based on pre-existing health conditions or charging sick people more for individual or small group plans. But experts said patients' personal information could still be used for marketing, and to assess risks and determine the prices of certain plans. And the Trump administration is promoting short-term health plans, which do allow insurers to deny coverage to sick patients.
+
+Robert Greenwald, faculty director of Harvard Law School's Center for Health Law and Policy Innovation, said insurance companies still cherry-pick, but now they're subtler. The center analyzes health insurance plans to see if they discriminate. He said insurers will do things like failing to include enough information about which drugs a plan covers, which pushes sick people who need specific medications elsewhere. Or they may change the things a plan covers, or how much a patient has to pay for a type of care, after a patient has enrolled. Or, Greenwald added, they might exclude or limit certain types of providers from their networks — like those who have skill caring for patients with HIV or hepatitis C.
+
+If there were concerns that personal data might be used to cherry-pick or lemon-drop, they weren't raised at the conference.
+
+At the IBM Watson Health booth, Kevin Ruane, a senior consulting scientist, told me that the company surveys 80,000 Americans a year to assess lifestyle, attitudes and behaviors that could relate to health care. Participants are asked whether they trust their doctor, have financial problems, go online, or own a Fitbit and similar questions. The responses of hundreds of adjacent households are analyzed together to identify social and economic factors for an area.
+
+Ruane said he has used IBM Watson Health's socioeconomic analysis to help insurance companies assess a potential market. The ACA increased the value of such assessments, experts say, because companies often don't know the medical history of people seeking coverage. A region with too many sick people, or with patients who don't take care of themselves, might not be worth the risk.
+
+Ruane acknowledged that the information his company gathers may not be accurate for every person. "We talk to our clients and tell them to be careful about this," he said. "Use it as a data insight. But it's not necessarily a fact."
+
+In a separate conversation, a salesman from a different company joked about the potential for error. "God forbid you live on the wrong street these days," he said. "You're going to get lumped in with a lot of bad things."
+
+The LexisNexis booth was emblazoned with the slogan "Data. Insight. Action." The company said it uses 442 nonmedical personal attributes to predict a person's medical costs. Its cache includes more than 78 billion records from more than 10,000 public and proprietary sources, including people's cellphone numbers, criminal records, bankruptcies, property records, neighborhood safety and more. The information is used to predict patients' health risks and costs in eight areas, including how often they are likely to visit emergency rooms, their total cost, their pharmacy costs, their motivation to stay healthy and their stress levels.
+
+People who downsize their homes tend to have higher health care costs, the company says. As do those whose parents didn't finish high school. Patients who own more valuable homes are less likely to land back in the hospital within 30 days of their discharge. The company says it has validated its scores against insurance claims and clinical data. But it won't share its methods and hasn't published the work in peer-reviewed journals.
+
+McCulley, LexisNexis' director of strategic solutions, said predictions made by the algorithms about patients are based on the combination of the personal attributes. He gave a hypothetical example: A high school dropout who had a recent income loss and doesn't have a relative nearby might have higher-than-expected health costs.
+
+But couldn't that same type of person be healthy?
+
+"Sure," McCulley said, with no apparent dismay at the possibility that the predictions could be wrong.
+
+McCulley and others at LexisNexis insist the scores are only used to help patients get the care they need and not to determine how much someone would pay for their health insurance. The company cited three different federal laws that restricted them and their clients from using the scores in that way. But privacy experts said none of the laws cited by the company bar the practice. The company backed off the assertions when I pointed that the laws did not seem to apply.
+
+LexisNexis officials also said the company's contracts expressly prohibit using the analysis to help price insurance plans. They would not provide a contract. But I knew that in at least one instance a company was already testing whether the scores could be used as a pricing tool.
+
+Before the conference, I'd seen a press release announcing that the largest health actuarial firm in the world, Milliman, was now using the LexisNexis scores.
+
+I tracked down Marcos Dachary, who works in business development for Milliman. Actuaries calculate health care risks and help set the price of premiums for insurers. I asked Dachary if Milliman was using the LexisNexis scores to price health plans and he said: "There could be an opportunity."
+
+The scores could allow an insurance company to assess the risks posed by individual patients and make adjustments to protect themselves from losses, he said. For example, he said, the company could raise premiums or revise contracts with providers.
+
+It's too early to tell whether the LexisNexis scores will actually be useful for pricing, he said. But he was excited about the possibilities. "One thing about social determinants data – it piques your mind," he said.
+
+Dachary acknowledged the scores could also be used to discriminate. Others, he said, have raised that concern. As much as there could be positive potential, he said, "there could also be negative potential."
+
+Erroneous inferences from group data
+
+It's that negative potential that still bothers data analyst Erin Kaufman, who left the health insurance industry in January. The 35-year-old from Atlanta had earned her doctorate in public health because she wanted to help people, but one day at Aetna, her boss told her to work with a new data set.
+
+To her surprise, the company had obtained personal information from a data broker on millions of Americans. The data contained each person's habits and hobbies, like whether they owned a gun, and if so, what type, she said. It included whether they had magazine subscriptions, liked to ride bikes or run marathons. It had hundreds of personal details about each person.
+
+The Aetna data team merged the data with the information it had on patients it insured. The goal was to see how people's personal interests and hobbies might relate to their health care costs.
+
+But Kaufman said it felt wrong: The information about the people who knitted or crocheted made her think of her grandmother. And the details about individuals who liked camping made her think of herself. What business did the insurance company have looking at this information? "It was a data set that really dug into our clients' lives," she said. "No one gave anyone permission to do this."
+
+In a statement, Aetna said it uses consumer marketing information to supplement its claims and clinical information. The combined data helps predict the risk of repeat emergency room visits or hospital admissions. The information is used to reach out to members and help them and plays no role in pricing plans or underwriting, the statement said.
+
+Kaufman said she had concerns about the accuracy of drawing inferences about an individual's health from an analysis of a group of people with similar traits. Health scores generated from arrest records, homeownership and similar material may be wrong, she said.
+
+Pam Dixon, executive director of the World Privacy Forum, a nonprofit that advocates for privacy in the digital age, shares Kaufman's concerns. She points to a study by the analytics company SAS, which worked in 2012 with an unnamed major health insurance company to predict a person's health care costs using 1,500 data elements, including the investments and types of cars people owned.
+
+The SAS study said higher health care costs could be predicted by looking at things like ethnicity, watching TV and mail-order purchases.
+
+"I find that enormously offensive as a list," Dixon said. "This is not health data. This is inferred data."
+
+Data scientist Cathy O'Neil said drawing conclusions about health risks on such data could lead to a bias against some poor people. It would be easy to infer they are prone to costly illnesses based on their backgrounds and living conditions, said O'Neil, author of the book Weapons of Math Destruction, which looked at how algorithms can increase inequality. That could lead to poor people being charged more, making it harder for them to get the care they need, she said. Employers, she said, could even decide not to hire people with data points that could indicate high medical costs in the future.
+
+O'Neil said the companies should also measure how the scores might discriminate against the poor, sick or minorities.
+
+American policymakers could do more to protect people's information, experts said. In the United States, companies can harvest personal data unless a specific law bans it, although California just passed legislation that could create restrictions, said William McGeveran, a professor at the University of Minnesota Law School. Europe, in contrast, passed a strict law called the General Data Protection Regulation, which went into effect in May.
+
+"In Europe, data protection is a constitutional right," McGeveran said.
+
+Pasquale, the University of Maryland law professor, said health scores should be treated like credit scores. Federal law gives people the right to know their credit scores and how they're calculated. If people are going to be rated by whether they listen to sad songs on Spotify or look up information about AIDS online, they should know, Pasquale said. "The risk of improper use is extremely high," he said. "And data scores are not properly vetted and validated and available for scrutiny."
+
+A creepy walk down memory lane
+
+As I reported this story I wondered how the data vendors might be using my personal information to score my potential health costs. So, I filled out a request on the LexisNexis website for the company to send me some of the personal information it has on me. A week later, a somewhat creepy, 182-page walk down memory lane arrived in the mail. Federal law only requires the company to provide a subset of the information it collected about me. So that's all I got.
+
+LexisNexis had captured details about my life going back 25 years, many that I'd forgotten. It had my phone numbers going back decades and my home addresses going back to my childhood in Golden, Colo. Each location had a field to show whether the address was "high risk." Mine were all blank. The company also collects records of any liens and criminal activity, which, thankfully, I didn't have.
+
+My report was boring, which isn't a surprise. I've lived a middle-class life and grown up in good neighborhoods. But it made me wonder: What if I had lived in "high-risk" neighborhoods? Could that ever be used by insurers to jack up my rates — or to avoid me altogether?
+
+I wanted to see more. If LexisNexis had health risk scores on me, I wanted to see how they were calculated and, more importantly, whether they were accurate. But the company told me that if it had calculated my scores it would have done so on behalf of its client, my insurance company. So, I couldn't have them.
