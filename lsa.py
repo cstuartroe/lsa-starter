@@ -36,10 +36,20 @@ def document_frequencies(_lemma_list,_all_lemma_counts):
                 increment(dfs,lemma)
     return dfs
 
+# term frequency-inverse document frequency, a shmancy statistic measuring a word's "importance" in a corpus
 def tf_idf(_term_count,_document_length,_term_df,_number_of_documents):
     tf = _term_count/_document_length
     idf = numpy.log(_number_of_documents/_term_df)
     return tf*idf
+
+# this one's tough to explain. read the readme.
+def reduced_column_count(_sigma,min_coverage):
+    _sigma = list(_sigma)
+    assert(min_coverage > 0 and min_coverage <= 1)
+    for i in range(1,len(_sigma)+1):
+        coverage = sum(_sigma[:i])/sum(sigma)
+        if coverage >= min_coverage:
+            return i
 
 document_list = os.listdir('documents')
 
@@ -54,16 +64,16 @@ for document in document_list:
     for token in tokenized:
         lemmatized = wordnet_lemmatizer.lemmatize(token)
         if lemmatized not in english_stoptokens:
-            lemmas.add(lemmatized)
+            lemmas.add(lemmatized) # adds the new lemma to the set, if it's not already included
             increment(lemma_counts,lemmatized)
 
-    all_lemmas.update(lemmas)
+    all_lemmas.update(lemmas) # adds any new words from current document to the set of all lemmas
     all_lemma_counts[document] = lemma_counts
     print(document + " contains %d distinct non-stop lemmas.\n" % len(lemmas))
 
 print("In all, there are %d distinct non-stop lemmas in your corpus." % len(all_lemmas))
-lemma_list = list(all_lemmas)
-all_dfs = document_frequencies(lemma_list,all_lemma_counts)
+lemma_list = list(all_lemmas) # converting from a set (unordered) to a list (ordered)
+all_dfs = document_frequencies(lemma_list,all_lemma_counts) # a dictionary giving how many documents each word appears in
 
 # this will be a grid of how many times each word appears in each document
 raw_counts = numpy.zeros((len(document_list),len(lemma_list)),dtype=int)
@@ -82,3 +92,12 @@ for i in range(len(document_list)):
         tf_idf_count = tf_idf(raw_count,document_length,term_df,len(document_list))
         tf_idf_counts[i,j] = tf_idf_count
 
+u, sigma, v = numpy.linalg.svd(tf_idf_counts)
+min_coverage = 1
+rcc = reduced_column_count(sigma,min_coverage)
+print("To keep %d%% percent coverage, %d columns are retained." % (round(min_coverage*100),rcc))
+u = u[:,:rcc]
+sigma = sigma[:rcc]
+v = v[:rcc,:]
+approx = numpy.round(numpy.matmul(numpy.matmul(u,numpy.diag(sigma)),v),decimals=6)
+tf_idf_counts = numpy.round(tf_idf_counts,decimals=6)
