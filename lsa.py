@@ -43,13 +43,23 @@ def tf_idf(_term_count,_document_length,_term_df,_number_of_documents):
     return tf*idf
 
 # this one's tough to explain. read the readme.
-def reduced_column_count(_sigma,min_coverage):
+def reduced_column_count(_sigma,_min_coverage):
     _sigma = list(_sigma)
-    assert(min_coverage > 0 and min_coverage <= 1)
+    assert(_min_coverage > 0 and _min_coverage <= 1)
     for i in range(1,len(_sigma)+1):
         coverage = sum(_sigma[:i])/sum(sigma)
-        if coverage >= min_coverage:
+        if coverage >= _min_coverage:
             return i
+
+# this is a naive way to categorize words - just see in which dimension they score the highest
+# if you're really trying to group words by topic you might want to do more advanced vector stuff, like k-means sorting
+def categorize_words(_v,_lemma_list):
+    categories = [[] for i in range(v.shape[0])]
+    for i in range(v.shape[1]):
+        column = list(v[:,i])
+        category = column.index(max(column))
+        categories[category].append(_lemma_list[i])
+    return categories
 
 document_list = os.listdir('documents')
 
@@ -79,7 +89,6 @@ all_dfs = document_frequencies(lemma_list,all_lemma_counts) # a dictionary givin
 raw_counts = numpy.zeros((len(document_list),len(lemma_list)),dtype=int)
 # this is a grid of tf-idf scores
 tf_idf_counts = numpy.zeros((len(document_list),len(lemma_list)),dtype=float)
-# you don't need both, i'm giving both and you can pick what works best
 for i in range(len(document_list)):
     document = document_list[i]
     for j in range(len(lemma_list)):
@@ -93,11 +102,16 @@ for i in range(len(document_list)):
         tf_idf_counts[i,j] = tf_idf_count
 
 u, sigma, v = numpy.linalg.svd(tf_idf_counts)
-min_coverage = 1
+min_coverage = .9 # a proportion of the variance you want to keep. anywhere .75-.95 is reasonable.
 rcc = reduced_column_count(sigma,min_coverage)
 print("To keep %d%% percent coverage, %d columns are retained." % (round(min_coverage*100),rcc))
 u = u[:,:rcc]
 sigma = sigma[:rcc]
 v = v[:rcc,:]
+
 approx = numpy.round(numpy.matmul(numpy.matmul(u,numpy.diag(sigma)),v),decimals=6)
 tf_idf_counts = numpy.round(tf_idf_counts,decimals=6)
+
+word_categories = categorize_words(v,lemma_list)
+for category in word_categories:
+    print(category[:10])
