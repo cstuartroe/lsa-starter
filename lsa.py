@@ -56,7 +56,7 @@ def reduced_column_count(_sigma,_min_coverage):
 def categorize_words(_v,_lemma_list):
     categories = [[] for i in range(v.shape[0])]
     for i in range(v.shape[1]):
-        column = list(v[:,i])
+        column = list(numpy.absolute(v[:,i]))
         category = column.index(max(column))
         categories[category].append(_lemma_list[i])
     return categories
